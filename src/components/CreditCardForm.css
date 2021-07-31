@@ -1,0 +1,133 @@
+.container {
+  margin-top: 13%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formDiv {
+  width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -1px 8px 15px 0px rgb(193 227 230 / 41%);
+    padding-top: 99px;
+}
+
+.mobile-hide {
+  display: block;
+}
+
+.mobile-show {
+  display: none;
+}
+.box {
+  position: relative;
+}
+.alert {
+  text-align: center;
+  margin-top: 20px;
+}
+.slection{
+  margin: 10px;
+}
+.button_container{
+  height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #5555dc;
+    width: 100%;
+    color: white;
+    margin: 10px;
+    cursor: pointer !important;
+}
+.disable_button{
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  width: 100%;
+  color: white;
+  margin: 10px;
+  cursor: not-allowed !important;
+}
+.slection::after{
+  border-image: initial;
+    content: " ";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    top: 23px;
+    right: 20px;
+    border-left: 4px solid transparent !important;
+    border-right: 4px solid transparent !important;
+    border-top: 5px solid rgb(121, 126, 131) !important;
+    border-bottom: none !important;
+    transform: none !important;
+
+}
+.select_Drop{
+  width: 100%;
+    min-width: 50px;
+    padding: 2px 31px 0px 12px;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(209, 213, 218);
+    border-radius: 10px;
+    box-shadow: none;
+    position: relative;
+    background-color: white;
+    color: rgb(109, 116, 123);
+    cursor: pointer;
+    display: block;
+    outline: none;
+    appearance: none;
+    height: 45px;
+}
+.creditCard{
+    margin-bottom: 10%;
+    position: absolute;
+    left: 24%;
+    top: -33%;
+}
+.formStyle{
+  width: 100%;
+  margin: 10px;
+  height: 45px;
+  padding: 8px 17px;
+  border-radius: 10px;
+  border: 1px solid rgb(209, 213, 218);
+}
+
+@media screen and (max-width: 575px) and (min-width: 240px) {
+  .mobile-hide {
+    display: none !important;
+  }
+  .mobile-show {
+    display: block !important;
+  }
+  .rccs {
+    margin: 10px !important;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    width: 100% !important;
+}
+
+
+  .rccs__card {
+    height: 182.873px;
+    /* margin: 0 auto; */
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: all 0.4s linear;
+    width: 100% !important;
+}
+  .formDiv {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: none;
+    padding-top: 99px;
+}
+}
