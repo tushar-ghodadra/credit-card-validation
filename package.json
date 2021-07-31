@@ -1,12 +1,9 @@
 {
-   "homepage": "http://aphrx.ca/credit-card-validation",
+  "homepage": ".",
   "name": "credit_card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "card-validator": "^8.1.0",
     "jquery": "^3.6.0",
@@ -14,8 +11,7 @@
     "react-bootstrap": "^1.5.2",
     "react-credit-cards": "^0.8.3",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -27,8 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -41,15 +36,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "puppeteer": "^8.0.0"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "!src/index.js",
-      "!src/App.js"
     ]
   }
 }
